@@ -9,13 +9,13 @@ function solution(answers) {
    let third = [3, 3, 1, 1, 2, 2, 4, 4, 5, 5];
     //정답지에 수포자들의 정답이 있는지 확인
     for(let i =0; i < answers.length; i++){
-        if(answers[i] === first[i%first[i]]){
+        if(answers[i] === first[i%5]){
             answerNum[0]++
         }
-        if(answers[i] === second[i%first[i]]){
+        if(answers[i] === second[i%8]){
               answerNum[1]++
         }
-        if(answers[i] === third[i%first[i]]){
+        if(answers[i] === third[i%10]){
             answerNum[2]++
         }
     }
