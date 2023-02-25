@@ -1,6 +1,5 @@
 https://school.programmers.co.kr/learn/courses/30/lessons/1844?language=javascript
 
-```js 
 
 function solution(maps) {
     const directionArr = [[1,0], [0,1], [0,-1], [-1,0]];
@@ -43,4 +42,4 @@ function solution(maps) {
     return maps[mapN-1][mapM-1] === 1 ? -1 :maps[mapN-1][mapM-1];
 }
 
-```
+
